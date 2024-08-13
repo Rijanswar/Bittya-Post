@@ -130,6 +130,16 @@ h2 {
   background-color: #006EAC;
 }
 
+.round {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #006EAC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .top-header .logo {
   -o-object-fit: none;
      object-fit: none;
@@ -175,4 +185,12 @@ h2 {
   width: 30px;
   border-radius: 50%;
   font-size: 16px;
+}
+
+.top-footer {
+  background-color: rgba(0, 109, 172, 0.5019607843);
+}
+.top-footer .container img {
+  width: -moz-fit-content;
+  width: fit-content;
 }/*# sourceMappingURL=style..css.map */
