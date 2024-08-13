@@ -72,6 +72,10 @@ h2 {
   color: #020202;
 }
 
+.bg-color {
+  background-color: rgba(224, 224, 224, 0.8549019608);
+}
+
 .time p {
   color: rgb(108, 108, 108);
 }
