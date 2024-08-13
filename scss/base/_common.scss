@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: "Mukta", sans-serif;
 }
+p{
+    font-size: 16px;
+    margin-bottom: 0 !important;
+}
 a{
     text-decoration: none !important;
     color: inherit !important;
@@ -13,6 +17,7 @@ ul{
     margin-bottom: 0px !important;
    
 }
+
 img{
     height: 100%;
     width: 100%;
@@ -35,10 +40,19 @@ img{
         text-align: center;
         color: $font-color;
     }
+
     .user-details{
-        img{
-            width: 30px;
+        .username{
+            img{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+            }
         }
     }
     
+}
+
+.br-bottom{
+    border-bottom: 1px solid $primary-color ;
 }

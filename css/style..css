@@ -7,6 +7,11 @@
   font-family: "Mukta", sans-serif;
 }
 
+p {
+  font-size: 16px;
+  margin-bottom: 0 !important;
+}
+
 a {
   text-decoration: none !important;
   color: inherit !important;
@@ -40,8 +45,14 @@ img {
   text-align: center;
   color: #020202;
 }
-.update .user-details img {
+.update .user-details .username img {
   width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.br-bottom {
+  border-bottom: 1px solid #006EAC;
 }
 
 .top-header .logo {
