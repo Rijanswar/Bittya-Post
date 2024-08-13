@@ -89,6 +89,15 @@ h2 {
     }
 }
 
+.small{
+    width: 40px;
+}
+
+.small-font{
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .content {
     background-color: #201d1db4;
     width: 100%;
@@ -125,4 +134,9 @@ h2 {
         width: 100%;
         border-radius: 50%;
     }
+}
+
+.exchange-rate{
+    width: 100%;
+    background-color: $primary-color;
 }
