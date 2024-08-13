@@ -57,11 +57,19 @@ h2 {
 }
 
 .br-bottom-gray {
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid rgba(184, 184, 184, 0.549);
 }
 
 .primary-color {
   color: #006EAC !important;
+}
+
+.p-color {
+  color: #555555 !important;
+}
+
+.black-02 {
+  color: #020202;
 }
 
 .time p {
@@ -79,8 +87,28 @@ h2 {
 }
 
 .pp-circle {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  margin: 0 auto;
+}
+.pp-circle::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: #A1BAC8;
+  left: -15px;
+  top: -5px;
+  z-index: -1;
+}
+.pp-circle img {
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
 }
 
