@@ -24,6 +24,26 @@ img {
      object-fit: cover;
 }
 
+.update .category {
+  border-bottom: 1px solid #006EAC;
+}
+.update .category .tag {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #006EAC;
+  color: white;
+  font-size: 18px;
+}
+.update h2 {
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  color: #020202;
+}
+.update .user-details img {
+  width: 30px;
+}
+
 .top-header .logo {
   -o-object-fit: none;
      object-fit: none;
