@@ -193,4 +193,8 @@ h2 {
 .top-footer .container img {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.main-footer {
+  background-color: #006EAC;
 }/*# sourceMappingURL=style..css.map */
