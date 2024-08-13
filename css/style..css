@@ -197,4 +197,8 @@ h2 {
 
 .main-footer {
   background-color: #006EAC;
+}
+
+.bor-left {
+  border-left: 2px solid rgba(184, 184, 184, 0.549);
 }/*# sourceMappingURL=style..css.map */
