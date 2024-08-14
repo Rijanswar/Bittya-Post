@@ -71,7 +71,7 @@
                 <span><a href="" class="text-success ">सबै हेर्नुहोस्</a></span>
             </div>
             <div class="row ">
-                <div class="col-8">
+                <div class="col-lg-8 col-md-12">
                     <div class="br-bottom-gray mb-3">
                         <a href=""><img src="images/aadharshila-768x346 1.png" alt=""></a>
                         <a href="" class="fs-5 fw-bold primary-color text-center d-block mt-4">कृषि बीमा गर्ने बढेसँगै
@@ -85,28 +85,33 @@
                     <div class="br-bottom-gray mb-3">
                         <div class="row d-flex align-items-center my-5">
                             <div class="col-4">
-                                <a href=""><img src="images/elon.jpg"></a>
+                                    <figure >
+                                        <a href=""><img src="images/elon.jpg"></a>
+                                    </figure>
                             </div>
+                                    
                             <div class="col-8">
-                                <a href="">
-                                    <h3 class="fs-4">भुवन केसी विनोद चौधरीको चुनाव प्रचारमा लागेपछि आयोगले सोध्य
-                                        स्पष्टिकरण
-                                    </h3>
-                                </a>
-                                <p>महोत्तरी। बर्दिवास नगरपालिकाको खानेपानी उपभोक्ता सम्म समितिले लामो समयसम्म सम्म
-                                    साधारणसभा
-                                    नगरेको भन्दै उपभोक्ताहरूले ध्यानाकर्षण गराएका छन् सम्म सम्म । मंगलबार..</p>
-                                <time class="time d-flex align-items-center gap-2 justify-content-center my-2">
-                                    <i class="bi bi-stopwatch"></i>
-                                    <p>१ घन्टा अगाडि | १४ असार २०७९</p>
-                                </time>
+                                           <a href="">
+                                            <h3 class="fs-4">भुवन केसी विनोद चौधरीको चुनाव प्रचारमा लागेपछि आयोगले सोध्य
+                                                स्पष्टिकरण
+                                            </h3>
+                                        </a>
+                                        <p>महोत्तरी। बर्दिवास नगरपालिकाको खानेपानी उपभोक्ता सम्म समितिले लामो समयसम्म सम्म
+                                            साधारणसभा
+                                            नगरेको भन्दै उपभोक्ताहरूले ध्यानाकर्षण गराएका छन् सम्म सम्म । मंगलबार..</p>
+                                        <time class="time d-flex align-items-center gap-2 justify-content-center my-2">
+                                            <i class="bi bi-stopwatch"></i>
+                                            <p>१ घन्टा अगाडि | १४ असार २०७९</p>
+                                        </time>
                             </div>
                         </div>
                     </div>
                     <div class="br-bottom-gray mb-3">
                         <div class="row d-flex align-items-center my-5">
                             <div class="col-4">
-                                <a href=""><img src="images/cat.jpg"></a>
+                                <figure>
+                                    <a href=""><img src="images/cat.jpg"></a>
+                                </figure>
                             </div>
                             <div class="col-8">
                                 <a href="">
@@ -125,7 +130,7 @@
                     </div>
 
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-12">
                     <div class="mb-5">
                         <a href=""><img src="images/cat-2.jpg" alt=""></a>
                         <time class="time d-flex align-items-center gap-2 my-2">
@@ -170,7 +175,7 @@
         <!-- 3-share -->
         <div class="container">
             <div class="row ">
-                <div class="col-8">
+                <div class="col-lg-8 col-md-12">
                     <div class="category d-flex justify-content-between align-items-center my-3">
                         <div class="d-flex ">
                             <span class="tag py-2 px-5  d-block"><a href="">शेयर बजार</a></span>
@@ -247,7 +252,7 @@
                     </div>
 
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-12">
                     <p class="fst-italic text-secondary">Advertisment</p>
                     <div class="mb-5 d-flex flex-column gap-4">
                         <a href=""><img src="images/ad-aside.gif" alt=""></a>
@@ -272,8 +277,8 @@
                 <span class="tag py-2 px-5  d-block">शेयर बजार</span>
                 <span><a href="" class="text-success ">सबै हेर्नुहोस्</a></span>
             </div>
-            <div class="row mt-5">
-                <div class="col-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mt-5">
                     <div class="pp-circle">
                         <a href=""><img src="images/elon.jpg" alt=""></a>
                     </div>
@@ -281,7 +286,7 @@
                         <p class="d-block text-center mt-3 fw-bold">किन खस्किंदैछ मधेशकेन्द्रित दलको जनाधार </p>
                     </a>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-12 mt-5">
                     <div class="pp-circle">
                         <a href=""><img src="images/elon.jpg" alt=""></a>
                     </div>
@@ -290,7 +295,7 @@
                     </a>
 
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-12 mt-5">
                     <div class="pp-circle">
                         <a href=""><img src="images/elon.jpg" alt=""></a>
                     </div>
@@ -318,9 +323,9 @@
                 </div>
                 <span><a href="" class="text-success ">सबै हेर्नुहोस्</a></span>
             </div>
-            <div class=" mb-3">
-                <div class="d-flex gap-4 align-items-center my-4">
-                    <div class="col-3.5">
+            <div class="mb-3">
+                <div class="row gap-2 align-items-center my-4">
+                    <div class="col-lg-4 col-md-12">
                         <div class="position-relative">
                             <a href=""><img src="images/cat-2.jpg"></a>
                             <div
@@ -339,7 +344,7 @@
                             दिनमा बम्बे स्टक एक्सचेन्ज (बीएसई) को सेन्सेक्समा १८४४ अंकले ओरालो लागेको छ। आजमात्रै
                             सेन्सेक्समा ६३४ अंकको गिरावट आएको छ। ...</p>
                     </div>
-                    <div class="col-3.5">
+                    <div class="col-lg-4 col-md-12">
                         <div class="position-relative">
                             <a href=""><img src="images/cat-2.jpg"></a>
                             <div
@@ -358,7 +363,7 @@
                             दिनमा बम्बे स्टक एक्सचेन्ज (बीएसई) को सेन्सेक्समा १८४४ अंकले ओरालो लागेको छ। आजमात्रै
                             सेन्सेक्समा ६३४ अंकको गिरावट आएको छ। ...</p>
                     </div>
-                    <div class="col-3.5">
+                    <div class="col-lg-4 col-md-12">
                         <div class="position-relative">
                             <a href=""><img src="images/cat-2.jpg"></a>
                             <div
@@ -398,7 +403,7 @@
                 <span><a href="" class="text-success ">सबै हेर्नुहोस्</a></span>
             </div>
             <div class="row ">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12">
                     <div>
                         <a href=""><img src="images/aadharshila-768x346 1.png" alt=""></a>
                         <a href="" class="d-block fs-5 fw-bold mt-2 black-02">सीमा क्षेत्रका ज्यादती रोक्ने एजेन्डा खोइ
@@ -416,7 +421,7 @@
 
 
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6">
                     <div class=" mb-3">
                         <div class="d-flex gap-4 align-items-center flex-column">
                             <div class="col-3.5">
@@ -442,7 +447,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6">
                     <div class=" mb-3">
                         <div class="d-flex gap-4 align-items-center flex-column">
                             <div class="col-3.5">
@@ -480,7 +485,7 @@
         <!-- 3-share -->
         <div class="container">
             <div class="row ">
-                <div class="col-8">
+                <div class="col-lg-8 col-md-12">
                     <div class="category d-flex justify-content-between align-items-center my-3">
                         <div class="d-flex ">
                             <span class="tag py-2 px-5  d-block"><a href="">शेयर बजार</a></span>
@@ -548,7 +553,7 @@
                     </div>
 
                 </div>
-                <div class="col-4 pt-4">
+                <div class="col-lg-4 col-md-12 pt-4">
                     <p class="fst-italic text-secondary">Advertisment</p>
                     <div class="mb-5 d-flex flex-column gap-4">
                         <a href=""><img src="images/ad-aside.gif" alt=""></a>
@@ -857,7 +862,7 @@
         <div class="container">
 
             <div class="row ">
-                <div class="col-8">
+                <div class="col-lg-8 col-md-12">
                     <div class="category d-flex justify-content-between align-items-center my-3">
                         <div class="d-flex ">
                             <span class="tag py-2 px-5  d-block"><a href="">शेयर बजार</a></span>
@@ -968,7 +973,7 @@
 
 
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-12">
                     <div class="category d-flex justify-content-between align-items-center my-3">
                         <div class="d-flex ">
                             <span class="tag py-2 px-5  d-block"><a href="">शेयर बजार</a></span>
@@ -1053,7 +1058,7 @@
 
         <div class="container">
             <div class="row ">
-                <div class="col-8">
+                <div class="col-lg-8 col-md-12">
                     <div class="category d-flex justify-content-between align-items-center my-3">
                         <div class="d-flex ">
                             <span class="tag py-2 px-5  d-block"><a href="">शेयर बजार</a></span>
@@ -1157,7 +1162,7 @@
 
 
                 </div>
-                <div class="col-4 ">
+                <div class="col-lg-4 col-md-12 ">
                     <div class="category d-flex justify-content-between align-items-center my-3">
                         <div class="d-flex ">
                             <span class="tag py-2 px-5  d-block"><a href="">शेयर बजार</a></span>
