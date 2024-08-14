@@ -140,6 +140,28 @@ h2 {
   justify-content: center;
 }
 
+.news-card figure {
+  box-shadow: 0 0 5px rgba(173, 173, 173, 0.767);
+  background-color: white;
+}
+.news-card figure img {
+  height: 250px;
+  width: 100%;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  padding: 5px;
+}
+.news-card h2:hover {
+  color: #006EAC;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .top-header .logo {
   -o-object-fit: none;
      object-fit: none;

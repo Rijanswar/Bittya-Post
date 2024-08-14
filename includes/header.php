@@ -16,7 +16,7 @@
         <div class="top-header container my-3">
             <div class="row">
                 <div class="col-3">
-                    <a href="index.html"><img class="logo" src="images/logo-2.png" alt="BittyaPost"></a>
+                    <a href="index.php"><img class="logo" src="images/logo-2.png" alt="BittyaPost"></a>
                     <time datetime="">आइतबार २९ जेठ, २०७९ Sunday, 12 June, 2022</time>
                 </div>
                 <div class="col-9">
@@ -31,8 +31,8 @@
                     <ul>
                         <li><a href="">चर्चामा</a></li>
                         <li><a href="">बैंक</a></li>
-                        <li><a href="">लघुवित्त</a></li>
-                        <li><a href="">बीमा</a></li>
+                        <li><a href="laghubitta.php">लघुवित्त</a></li>
+                        <li><a href="insurance.php">बीमा</a></li>
                         <li><a href="">सुन</a></li>
                         <li><a href="">शेयर</a></li>
                     </ul>

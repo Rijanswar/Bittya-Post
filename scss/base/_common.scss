@@ -70,16 +70,16 @@ h2 {
     color: #006EAC !important;
 }
 
-.p-color{
+.p-color {
     color: #555555 !important;
 }
 
 
-.black-02{
+.black-02 {
     color: #020202;
 }
 
-.bg-color{
+.bg-color {
     background-color: #e0e0e0da;
 }
 
@@ -89,11 +89,11 @@ h2 {
     }
 }
 
-.small{
+.small {
     width: 40px;
 }
 
-.small-font{
+.small-font {
     font-size: 18px;
     font-weight: bold;
 }
@@ -114,14 +114,15 @@ h2 {
     width: 300px;
     border-radius: 50%;
     background-color: red;
-    position: relative ;
+    position: relative;
     margin: 0 auto;
+
     &::before {
         content: "";
-        display: block ;
-        position: absolute ;
-        height: 100% ;
-        width: 100% ;
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
         border-radius: 50%;
         background-color: #A1BAC8;
         left: -15px;
@@ -136,12 +137,12 @@ h2 {
     }
 }
 
-.exchange-rate{
+.exchange-rate {
     width: 100%;
     background-color: $primary-color;
 }
 
-.round{
+.round {
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -149,4 +150,33 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+// news-card
+.news-card {
+    figure{
+        box-shadow: 0 0 5px rgba(173, 173, 173, 0.767);
+        background-color: white;
+        img {
+            // max-height: 250px;
+            height: 250px;
+            width: 100%;
+            object-fit: cover !important;
+            padding: 5px;
+        }
+    }
+
+    h2 {
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
