@@ -1,46 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bittya post</title>
-    <link rel="stylesheet" href="css/style..css">
-    <!-- bootstrap-css-file -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="shortcut icon" href="images/fevicon.png" type="image/x-icon">
-</head>
-
-<body>
-    <header>
-        <div class="top-header container my-3">
-            <div class="row">
-                <div class="col-3">
-                    <a href="index.html"><img class="logo" src="images/logo-2.png" alt="BittyaPost"></a>
-                    <time datetime="">आइतबार २९ जेठ, २०७९ Sunday, 12 June, 2022</time>
-                </div>
-                <div class="col-9">
-                    <a href=""><img src="images/header-ad.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="navigation-bar py-3">
-            <div class="container">
-                <button class="side-menu-open-btn"><i class="bi bi-list"></i></button>
-                <nav>
-                    <ul>
-                        <li><a href="">चर्चामा</a></li>
-                        <li><a href="">बैंक</a></li>
-                        <li><a href="">लघुवित्त</a></li>
-                        <li><a href="">बीमा</a></li>
-                        <li><a href="">सुन</a></li>
-                        <li><a href="">शेयर</a></li>
-                    </ul>
-                </nav>
-                <button class="search-btn"><i class="bi bi-search"></i></button>
-            </div>
-        </div>
-    </header>
+    <?php include("includes/header.php")?>
 
     <main>
         <!-- ad ad ad ad ad ad ad -->
@@ -53,7 +11,7 @@
             <div class="category">
                 <span class="tag py-2 px-5 mx-auto d-block">शेयर बजार</span>
             </div>
-            <h2 class="mt-4"><a href="">खप्तड लघुवित्त र सिक्लेस हाइड्रोपावरको सेयर आगामी साताभित्रै कारोबारमा आउन
+            <h2 class="mt-4"><a href="news-details.php">खप्तड लघुवित्त र सिक्लेस हाइड्रोपावरको सेयर आगामी साताभित्रै कारोबारमा आउन
                     सक्ने</a>
             </h2>
             <div class="user-details">
@@ -1300,123 +1258,5 @@
         </div>
     </main>
 
-    <footer>
-        <div class="top-footer py-4">
-            <div class="container d-flex justify-content-between align-items-center">
-                <img src="images/logo.png" alt="">
-                <div class="pan-no ">
-                    <p class="fw-bold fs-5">सूचना विभाग दर्ता नं</p>
-                    <p class="primary-color text-center">१४१७/०७६-२०७७</p>
-                </div>
-                <div class="follow-us">
-                    <p class="fw-bold fs-5">Follow Us:</p>
-                    <div class="icons gap-2 d-flex align-items-center justify-content-center">
+    <?php include("includes/footer.php")?>
 
-                        <div class="round d-flex "><a href=""><i class="bi bi-instagram text-light"></i></a></div>
-                        <div class="round d-flex "><a href=""><i class="bi bi-twitter text-light"></i></a></div>
-                        <div class="round d-flex "><a href=""><i class="bi bi-youtube text-light"></i></a></div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="main-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-8">
-                        <div class="row pt-5">
-                            <div class="col-4">
-                                <div class="br-bottom-gray">
-                                    <a href="" class="fw-bold text-light fs-5 ">गृहपृष्ठ</a>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="br-bottom-gray">
-                                    <a href="" class="fw-bold text-light fs-5 ">लिङ्कहरू</a>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="br-bottom-gray">
-                                    <a href="" class="fw-bold text-light fs-5 ">सम्पर्क ठेगाना</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-4">
-                                <ul class="ps-0 text-light">
-                                    <li class="mb-3"><a href="">हाम्रो टिम</a></li>
-                                    <li class="mb-3"><a href="">प्रयोगका सर्त</a></li>
-                                    <li class="mb-3"><a href="">साथ साझेदार</a></li>
-                                    <li class="mb-3"><a href="">ट्राफिक पुलिस</a></li>
-                                    <li class="mb-3"><a href="">टेलिभिजन</a></li>
-                                    <li><a href="">सूचना प्रविधि विभाग</a></li>
-                                </ul>
-                            </div>
-        
-                            <div class="col-4 d-flex justify-content-between ">
-                                <ul class="ps-0 text-light ">
-                                    <li class="mb-3"><a href="">मुख्य समाचार</a></li>
-                                    <li class="mb-3"><a href="">हेडलाइन</a></li>
-                                    <li class="mb-3"><a href="">अर्थतन्त्र</a></li>
-                                    <li class="mb-3"><a href="">विश्व</a></li>
-                                    <li class="mb-3"><a href="">रोजगारी/सूचना</a></li>
-                                    <li class="mb-3"><a href="">अन्तरवार्ता</a></li>
-                                </ul>
-                                <ul class="ps-0 text-light">
-                                    <li class="mb-3"><a href="">घरजग्गा</a></li>
-                                    <li class="mb-3"><a href="">   मनोरञ्जन</a></li>
-                                    <li class="mb-3"><a href="">  अर्थ वाणिज्य</a></li>
-                                    <li class="mb-3"><a href=""> सूचना/प्रविधि</a></li>
-                                    <li class="mb-3"><a href=""> मोडल/सेलिब्रेटी</a></li>
-                                    <li class="mb-3"><a href=""> फोटो फिचर</a></li>
-                                </ul>
-                            </div>
-        
-                            <div class="col-4 ">
-                                <ul class="ps-0 text-light ">
-                                    <li class="mb-3"><i class="bi bi-geo-alt-fill me-2"></i>Maitidevi, Setopool, Kathmandu</li>
-                                    <li class="mb-3"><i class="bi bi-telephone-fill me-2"></i><a href="tel:+977-9844648645">+977-9844648645</a></li>
-                                    <li class="mb-3"><i class="bi bi-envelope-fill me-2"></i><a href="mailto: news.Bittyapost@gmail.com"> news.Bittyapost@gmail.com</a></li>
-                                </ul>
-                            </div>
-        
-                            <div class="col-4">
-        
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-4 mt-5 d-flex justify-content-center">
-                        <div class="bor-left">
-                            <ul class="ms-5">
-                                <li class="mb-4">
-                                    <h3 class="text-light fs-4">कार्यकारी निर्देशक:</h3>
-                                    <p class="text-light p-color">जीवन बस्नेत</p>
-                                </li>
-                                <li class="mb-4">
-                                    <h3 class="text-light fs-4">बिजनेश एड्भाइजर:</h3>
-                                    <p class="text-light p-color">जीवन बस्नेत</p>
-                                </li>
-                                <li class="mb-4">
-                                    <h3 class="text-light fs-4">लेखा तथा प्रशासन प्रमुख:</h3>
-                                    <p class="text-light p-color">जीवन बस्नेत</p>
-                                </li>
-                                <li>
-                                    <h3 class="text-light fs-4">कार्यालय सहयोगी:</h3>
-                                    <p class="text-light p-color">जीवन बस्नेत</p>
-                                </li>
-                            </ul>
-                        </div>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </footer>
-
-    <!-- bootstrap-js-file -->
-    <script src="js/bootstrap.min.js"></script>
-</body>
-
-</html>
