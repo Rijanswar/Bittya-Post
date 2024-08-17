@@ -15,11 +15,11 @@
     <header>
         <div class="top-header container my-3">
             <div class="row">
-                <div class="col-3">
+                <div class="col-lg-3 col-md-12">
                     <a href="index.php"><img class="logo" src="images/logo-2.png" alt="BittyaPost"></a>
                     <time datetime="">आइतबार २९ जेठ, २०७९ Sunday, 12 June, 2022</time>
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9 col-md-12">
                     <a href=""><img src="images/header-ad.png" alt=""></a>
                 </div>
             </div>
