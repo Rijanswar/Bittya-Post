@@ -432,13 +432,11 @@
             </div>
             <div class="tab-pane fade" id="pills-sahakari" role="tabpanel" aria-labelledby="pills-sahakari-tab"
                 tabindex="0">
-                
+
                 yoyo oyyooyoyo
-                
+
 
             </div>
-
-
         </div>
 
     </div>
@@ -451,85 +449,118 @@
     <!-- 3-share -->
     <div class="container">
         <div class="category d-flex justify-content-between align-items-center my-3">
-            <div class="d-flex ">
-                <span class="tag py-2 px-5  d-block"><a href="">शेयर बजार</a></span>
-                <span class="py-2 px-5 d-block fw-bold text-dark "><a href="">शेयर बजार</a></span>
-                <span class="py-2 px-5 d-block fw-bold text-dark "><a href="">शेयर बजार</a></span>
-            </div>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-industry-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-industry" type="button" role="tab" aria-controls="pills-industry"
+                        aria-selected="true">उद्योग</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-production-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-production" type="button" role="tab" aria-controls="pills-production"
+                        aria-selected="false"> उत्पादन</button>
+                </li>
+                <li class="nav-item " role="presentation">
+                    <button class="nav-link" id="pills-business-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-business" type="button" role="tab" aria-controls="pills-business"
+                        aria-selected="false">व्यापार</button>
+                </li>
+            </ul>
             <span><a href="" class="text-success ">सबै हेर्नुहोस्</a></span>
         </div>
-        <div class="row ">
-            <div class="col-lg-6 col-md-12">
-                <div>
-                    <a href=""><img src="images/aadharshila-768x346 1.png" alt=""></a>
-                    <a href="" class="d-block fs-5 fw-bold mt-2 black-02">सीमा क्षेत्रका ज्यादती रोक्ने एजेन्डा खोइ
-                        ?</a>
-                    <p class="p-color">भारतसँग करिब १ हजार ८ सय ८० किमि र चीनसँग १ हजार ४ सय १४ किमि लम्बाइमा
-                        नेपालको
-                        सीमा जोडिएको छ । २७ जिल्लाका ६० संघीय निर्वाचन क्षेत्र भारततर्फ र १५ जिल्लाका १५ वटै संघीय
-                        निर्वाचन क्षेत्र चीनतर्फ छन् । भारतसँग सीमा जोडिएको क्षेत्रमा एसएसबी र सशस्त्र वन रक्षकबाट
-                        लुटपिटका घटना दोहोरिरहने गरेका छन् । एसएसबी र सशस्त्र वन रक्षकबाट नेपाली मारिएका घटना पनि
-                        पटक–पटक भएका छन् । भारतीय वन रक्षकले २०६९ फागुन १३ मा गोली हानेर घाइते बनाएपछि बेपत्ता
-                        बनाएका
-                        गुलरियाका राममिलन लोधकी पार्वती भन्छिन्, ‘श्रीमान् १० वर्षदेखि बेपत्ता हुनुहुन्छ, न ...
-                    </p>
-                </div>
-
-
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class=" mb-3">
-                    <div class="d-flex gap-4 align-items-center flex-column">
-                        <div class="col-3.5">
-                            <div>
-                                <a href=""><img src="images/cat-2.jpg"></a>
-                            </div>
-                            <a href="" class="fs-5 fw-bold black-02 d-block mt-2">
-                                गण्डकीका मुख्यमन्त्रीलाई कुमार खड्काको प्रश्न- किन अपमानजनक ढंगले मन्त्रीबाट
-                                बर्खास्त
-                                ...
-                            </a>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-industry" role="tabpanel"
+                aria-labelledby="pills-industry-tab" tabindex="0">
+                <div class="row ">
+                    <div class="col-lg-6 col-md-12">
+                        <div>
+                            <a href=""><img src="images/aadharshila-768x346 1.png" alt=""></a>
+                            <a href="" class="d-block fs-5 fw-bold mt-2 black-02">सीमा क्षेत्रका ज्यादती रोक्ने एजेन्डा
+                                खोइ
+                                ?</a>
+                            <p class="p-color">भारतसँग करिब १ हजार ८ सय ८० किमि र चीनसँग १ हजार ४ सय १४ किमि लम्बाइमा
+                                नेपालको
+                                सीमा जोडिएको छ । २७ जिल्लाका ६० संघीय निर्वाचन क्षेत्र भारततर्फ र १५ जिल्लाका १५ वटै
+                                संघीय
+                                निर्वाचन क्षेत्र चीनतर्फ छन् । भारतसँग सीमा जोडिएको क्षेत्रमा एसएसबी र सशस्त्र वन
+                                रक्षकबाट
+                                लुटपिटका घटना दोहोरिरहने गरेका छन् । एसएसबी र सशस्त्र वन रक्षकबाट नेपाली मारिएका घटना
+                                पनि
+                                पटक–पटक भएका छन् । भारतीय वन रक्षकले २०६९ फागुन १३ मा गोली हानेर घाइते बनाएपछि बेपत्ता
+                                बनाएका
+                                गुलरियाका राममिलन लोधकी पार्वती भन्छिन्, ‘श्रीमान् १० वर्षदेखि बेपत्ता हुनुहुन्छ, न ...
+                            </p>
                         </div>
-                        <div class="col-3.5">
-                            <div>
-                                <a href=""><img src="images/cat-2.jpg"></a>
+
+
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class=" mb-3">
+                            <div class="d-flex gap-4 align-items-center flex-column">
+                                <div class="col-3.5">
+                                    <div>
+                                        <a href=""><img src="images/cat-2.jpg"></a>
+                                    </div>
+                                    <a href="" class="fs-5 fw-bold black-02 d-block mt-2">
+                                        गण्डकीका मुख्यमन्त्रीलाई कुमार खड्काको प्रश्न- किन अपमानजनक ढंगले मन्त्रीबाट
+                                        बर्खास्त
+                                        ...
+                                    </a>
+                                </div>
+                                <div class="col-3.5">
+                                    <div>
+                                        <a href=""><img src="images/cat-2.jpg"></a>
+                                    </div>
+                                    <a href="" class="fs-5 fw-bold black-02 d-block mt-2">
+                                        गण्डकीका मुख्यमन्त्रीलाई कुमार खड्काको प्रश्न- किन अपमानजनक ढंगले मन्त्रीबाट
+                                        बर्खास्त
+                                        ...
+                                    </a>
+                                </div>
                             </div>
-                            <a href="" class="fs-5 fw-bold black-02 d-block mt-2">
-                                गण्डकीका मुख्यमन्त्रीलाई कुमार खड्काको प्रश्न- किन अपमानजनक ढंगले मन्त्रीबाट
-                                बर्खास्त
-                                ...
-                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class=" mb-3">
+                            <div class="d-flex gap-4 align-items-center flex-column">
+                                <div class="col-3.5">
+                                    <div>
+                                        <a href=""><img src="images/cat-2.jpg"></a>
+                                    </div>
+                                    <a href="" class="fs-5 fw-bold black-02 d-block mt-2">
+                                        गण्डकीका मुख्यमन्त्रीलाई कुमार खड्काको प्रश्न- किन अपमानजनक ढंगले मन्त्रीबाट
+                                        बर्खास्त
+                                        ...
+                                    </a>
+                                </div>
+                                <div class="col-3.5">
+                                    <div>
+                                        <a href=""><img src="images/cat-2.jpg"></a>
+                                    </div>
+                                    <a href="" class="fs-5 fw-bold black-02 d-block mt-2">
+                                        गण्डकीका मुख्यमन्त्रीलाई कुमार खड्काको प्रश्न- किन अपमानजनक ढंगले मन्त्रीबाट
+                                        बर्खास्त
+                                        ...
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <div class=" mb-3">
-                    <div class="d-flex gap-4 align-items-center flex-column">
-                        <div class="col-3.5">
-                            <div>
-                                <a href=""><img src="images/cat-2.jpg"></a>
-                            </div>
-                            <a href="" class="fs-5 fw-bold black-02 d-block mt-2">
-                                गण्डकीका मुख्यमन्त्रीलाई कुमार खड्काको प्रश्न- किन अपमानजनक ढंगले मन्त्रीबाट
-                                बर्खास्त
-                                ...
-                            </a>
-                        </div>
-                        <div class="col-3.5">
-                            <div>
-                                <a href=""><img src="images/cat-2.jpg"></a>
-                            </div>
-                            <a href="" class="fs-5 fw-bold black-02 d-block mt-2">
-                                गण्डकीका मुख्यमन्त्रीलाई कुमार खड्काको प्रश्न- किन अपमानजनक ढंगले मन्त्रीबाट
-                                बर्खास्त
-                                ...
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="tab-pane fade" id="pills-production" role="tabpanel" aria-labelledby="pills-production-tab"
+                tabindex="0">
+                उत्पादनउत्पादनउत्पादनउत्पादनउत्पादनउत्पादनउत्पादनउत्पादनउत्पादन
+            </div>
+            <div class="tab-pane fade" id="pills-business" role="tabpanel" aria-labelledby="pills-business-tab"
+                tabindex="0">
+
+                व्यापारव्यापारव्यापारव्यापारव्यापारव्यापारव्यापारव्यापारव्यापारव्यापारव्यापारव्यापार
+
+
             </div>
         </div>
+
     </div>
 
     <!-- ad ad ad ad ad ad ad -->
