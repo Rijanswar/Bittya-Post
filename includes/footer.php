@@ -106,6 +106,7 @@
 
     <!-- bootstrap-js-file -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/custome.js"></script>
 </body>
 
 </html>

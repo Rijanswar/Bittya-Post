@@ -101,7 +101,7 @@ h2 {
 
 .pp-circle {
   height: 300px;
-  width: 300px;
+  aspect-ratio: 1/1;
   border-radius: 50%;
   background-color: red;
   position: relative;
@@ -177,6 +177,9 @@ h2 {
 .navigation-bar {
   background-color: #006EAC;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
 }
 .navigation-bar .container {
   display: flex;

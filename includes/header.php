@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="sticky">
         <div class="top-header container my-3">
             <div class="row">
                 <div class="col-3">
@@ -24,20 +24,20 @@
                 </div>
             </div>
         </div>
-        <div class="navigation-bar py-3">
-            <div class="container">
-                <button class="side-menu-open-btn"><i class="bi bi-list"></i></button>
-                <nav>
-                    <ul>
-                        <li><a href="">चर्चामा</a></li>
-                        <li><a href="">बैंक</a></li>
-                        <li><a href="laghubitta.php">लघुवित्त</a></li>
-                        <li><a href="insurance.php">बीमा</a></li>
-                        <li><a href="">सुन</a></li>
-                        <li><a href="">शेयर</a></li>
-                    </ul>
-                </nav>
-                <button class="search-btn"><i class="bi bi-search"></i></button>
-            </div>
-        </div>
     </header>
+    <div class="navigation-bar py-3">
+        <div class="container">
+            <button class="side-menu-open-btn"><i class="bi bi-list"></i></button>
+            <nav>
+                <ul>
+                    <li><a href="">चर्चामा</a></li>
+                    <li><a href="">बैंक</a></li>
+                    <li><a href="laghubitta.php">लघुवित्त</a></li>
+                    <li><a href="insurance.php">बीमा</a></li>
+                    <li><a href="">सुन</a></li>
+                    <li><a href="">शेयर</a></li>
+                </ul>
+            </nav>
+            <button class="search-btn"><i class="bi bi-search"></i></button>
+        </div>
+    </div>

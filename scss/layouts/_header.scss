@@ -1,8 +1,9 @@
 .top-header {
-    .logo{
+    .logo {
         object-fit: none;
         height: fit-content;
     }
+
     time {
         font-size: 15px;
         color: #1B1B1C;
@@ -10,33 +11,42 @@
     }
 }
 
-.navigation-bar{
+.navigation-bar {
     background-color: $primary-color;
     color: white;
-    .container{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+
+    .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .side-menu-open-btn{
+
+        .side-menu-open-btn {
             background-color: transparent;
             border: none;
             color: inherit;
             font-size: 30px;
         }
-        nav{
+
+        nav {
             flex: 1;
             margin-left: 40px;
-            ul{
+
+            ul {
                 display: flex;
                 gap: 20px;
-                li{
-                    a{
+
+                li {
+                    a {
                         font-weight: 500;
                     }
                 }
             }
         }
-        .search-btn{
+
+        .search-btn {
             border: none;
             color: $primary-color;
             height: 30px;
@@ -45,5 +55,9 @@
             font-size: 16px;
         }
     }
-    
+
+}
+
+.sticky {
+    .navigation-bar {}
 }
