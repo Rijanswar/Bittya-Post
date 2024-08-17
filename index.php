@@ -107,7 +107,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="br-bottom-gray mb-3">
+                <div class="mb-3">
                     <div class="row d-flex align-items-center my-5">
                         <div class="col-4">
                             <figure>
@@ -186,8 +186,8 @@
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="pills-insurance-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-insurance" type="button" role="tab" aria-controls="pills-insurance"
-                                aria-selected="false"> बीमा</button>
+                                data-bs-target="#pills-insurance" type="button" role="tab"
+                                aria-controls="pills-insurance" aria-selected="false"> बीमा</button>
                         </li>
                         <li class="nav-item " role="presentation">
                             <button class="nav-link" id="pills-finance-tab" data-bs-toggle="pill"
@@ -196,98 +196,98 @@
                         </li>
                     </ul>
                     <span><a href="" class="text-success ">सबै हेर्नुहोस्</a></span>
-
-
                 </div>
                 <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-bank" role="tabpanel"
-                            aria-labelledby="pills-bank-tab" tabindex="0">
-                        
-                            <div class="br-bottom-gray position-relative">
-                    <a href=""><img src="images/aadharshila-768x346 1.png" alt=""></a>
-                    <div class="content position-absolute bottom-0 left-0 py-4 ps-4 d-flex align-items-center">
-                        <div class="half">
-                            <a href="" class="text-light fs-5">मेटा कम्पनीबाट हजारौँ कर्मचारी बर्खास्तीमा पर्दै,
-                                निकालिने
-                                कर्मचारीले कम्तिमा चार महिनाको पारिश्रमिक पाउने
-                            </a>
-                        </div>
-                        <div class="d-flex gap-2">
+                    <div class="tab-pane fade show active" id="pills-bank" role="tabpanel"
+                        aria-labelledby="pills-bank-tab" tabindex="0">
+                        <div class="br-bottom-gray position-relative">
+                            <a href=""><img src="images/aadharshila-768x346 1.png" alt=""></a>
+                            <div class="content position-absolute bottom-0 left-0 py-4 ps-4 d-flex align-items-center">
+                                <div class="half">
+                                    <a href="" class="text-light fs-5">मेटा कम्पनीबाट हजारौँ कर्मचारी बर्खास्तीमा पर्दै,
+                                        निकालिने
+                                        कर्मचारीले कम्तिमा चार महिनाको पारिश्रमिक पाउने
+                                    </a>
+                                </div>
+                                <div class="d-flex gap-2">
 
-                            <i class="bi bi-stopwatch text-light"></i>
-                            <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
+                                    <i class="bi bi-stopwatch text-light"></i>
+                                    <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
+                                </div>
+                            </div>
                         </div>
+                        <div class=" mb-3">
+                            <div class="d-flex gap-4 align-items-center my-4">
+                                <div class="col-3.5  ">
+                                    <div class="position-relative">
+                                        <a href=""><img src="images/cat-2.jpg"></a>
+                                        <div
+                                            class="content border-0 position-absolute bottom-0 left-0 py-1 ps-4 d-flex align-items-center">
+                                            <div class="d-flex gap-2">
+                                                <i class="bi bi-stopwatch text-light"></i>
+                                                <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="" class="fs-5 fw-bold primary-color d-block mt-4">अम्बानीले फुटबल क्लब
+                                        लिभरपुल
+                                        किन्न लागेका हुन् त ?</a>
+
+                                </div>
+                                <div class="col-3.5  ">
+                                    <div class="position-relative">
+                                        <a href=""><img src="images/cat-2.jpg"></a>
+                                        <div
+                                            class="content border-0 position-absolute bottom-0 left-0 py-1 ps-4 d-flex align-items-center">
+                                            <div class="d-flex gap-2">
+                                                <i class="bi bi-stopwatch text-light"></i>
+                                                <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="" class="fs-5 fw-bold primary-color d-block mt-4">अम्बानीले फुटबल क्लब
+                                        लिभरपुल
+                                        किन्न लागेका हुन् त ?</a>
+
+                                </div>
+                                <div class="col-3.5  ">
+                                    <div class="position-relative">
+                                        <a href=""><img src="images/cat-2.jpg"></a>
+                                        <div
+                                            class="content border-0 position-absolute bottom-0 left-0 py-1 ps-4 d-flex align-items-center">
+                                            <div class="d-flex gap-2">
+                                                <i class="bi bi-stopwatch text-light"></i>
+                                                <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="" class="fs-5 fw-bold primary-color d-block mt-4">अम्बानीले फुटबल क्लब
+                                        लिभरपुल
+                                        किन्न लागेका हुन् त ?</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+
                     </div>
+                    <div class="tab-pane fade" id="pills-insurance" role="tabpanel"
+                        aria-labelledby="pills-insurance-tab" tabindex="0">
+
+                        बीमा content
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-finance" role="tabpanel" aria-labelledby="pills-finance-tab"
+                        tabindex="0">
+
+                        सहकारी content
+
+                    </div>
+
+
                 </div>
-                <div class=" mb-3">
-                    <div class="d-flex gap-4 align-items-center my-4">
-                        <div class="col-3.5  ">
-                            <div class="position-relative">
-                                <a href=""><img src="images/cat-2.jpg"></a>
-                                <div
-                                    class="content border-0 position-absolute bottom-0 left-0 py-1 ps-4 d-flex align-items-center">
-                                    <div class="d-flex gap-2">
-                                        <i class="bi bi-stopwatch text-light"></i>
-                                        <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="" class="fs-5 fw-bold primary-color d-block mt-4">अम्बानीले फुटबल क्लब लिभरपुल
-                                किन्न लागेका हुन् त ?</a>
 
-                        </div>
-                        <div class="col-3.5  ">
-                            <div class="position-relative">
-                                <a href=""><img src="images/cat-2.jpg"></a>
-                                <div
-                                    class="content border-0 position-absolute bottom-0 left-0 py-1 ps-4 d-flex align-items-center">
-                                    <div class="d-flex gap-2">
-                                        <i class="bi bi-stopwatch text-light"></i>
-                                        <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="" class="fs-5 fw-bold primary-color d-block mt-4">अम्बानीले फुटबल क्लब लिभरपुल
-                                किन्न लागेका हुन् त ?</a>
 
-                        </div>
-                        <div class="col-3.5  ">
-                            <div class="position-relative">
-                                <a href=""><img src="images/cat-2.jpg"></a>
-                                <div
-                                    class="content border-0 position-absolute bottom-0 left-0 py-1 ps-4 d-flex align-items-center">
-                                    <div class="d-flex gap-2">
-                                        <i class="bi bi-stopwatch text-light"></i>
-                                        <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="" class="fs-5 fw-bold primary-color d-block mt-4">अम्बानीले फुटबल क्लब लिभरपुल
-                                किन्न लागेका हुन् त ?</a>
-
-                        </div>
-
-                    </div>
-                </div>
-                        
-                        </div>
-                        <div class="tab-pane fade" id="pills-insurance" role="tabpanel"
-                            aria-labelledby="pills-insurance-tab" tabindex="0">
-                        
-                            बीमा content
-                        
-                        </div>
-                        <div class="tab-pane fade" id="pills-finance" role="tabpanel"
-                            aria-labelledby="pills-finance-tab" tabindex="0">
-                        
-                            सहकारी content
-                        
-                        </div>
-                  
-                        
-                    </div>
-
-               
 
             </div>
             <div class="col-lg-4 col-md-12">
@@ -354,75 +354,93 @@
     <!-- 3-share -->
     <div class="container">
         <div class="category d-flex justify-content-between align-items-center my-3">
-            <div class="d-flex ">
-                <span class="tag py-2 px-5  d-block"><a href="">शेयर बजार</a></span>
-                <span class="py-2 px-5 d-block fw-bold text-dark "><a href="">शेयर बजार</a></span>
-                <span class="py-2 px-5 d-block fw-bold text-dark "><a href="">शेयर बजार</a></span>
-            </div>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-Eco-tab" data-bs-toggle="pill" data-bs-target="#pills-Eco"
+                        type="button" role="tab" aria-controls="pills-Eco" aria-selected="true">अर्थ</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-insu2-tab" data-bs-toggle="pill" data-bs-target="#pills-insu2"
+                        type="button" role="tab" aria-controls="pills-insu2" aria-selected="false"> बीमा</button>
+                </li>
+                <li class="nav-item " role="presentation">
+                    <button class="nav-link" id="pills-sahakari-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-sahakari" type="button" role="tab" aria-controls="pills-sahakari"
+                        aria-selected="false">सहकारी</button>
+                </li>
+            </ul>
             <span><a href="" class="text-success ">सबै हेर्नुहोस्</a></span>
         </div>
-        <div class="mb-3">
-            <div class="row gap-2 align-items-center my-4">
-                <div class="col-lg-4 col-md-12">
-                    <div class="position-relative">
-                        <a href=""><img src="images/cat-2.jpg"></a>
-                        <div
-                            class="content border-0 position-absolute bottom-0 left-0 py-1 ps-4 d-flex align-items-center">
-                            <div class="d-flex gap-2">
-                                <i class="bi bi-stopwatch text-light"></i>
-                                <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-Eco" role="tabpanel" aria-labelledby="pills-Eco-tab"
+                tabindex="0">
+                <div class=" mb-3">
+                    <div class="d-flex gap-4 align-items-center my-4">
+                        <div class="col-3.5  ">
+                            <div class="position-relative">
+                                <a href=""><img src="images/cat-2.jpg"></a>
+                                <div
+                                    class="content border-0 position-absolute bottom-0 left-0 py-1 ps-4 d-flex align-items-center">
+                                    <div class="d-flex gap-2">
+                                        <i class="bi bi-stopwatch text-light"></i>
+                                        <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
+                                    </div>
+                                </div>
                             </div>
+                            <a href="" class="fs-5 fw-bold primary-color d-block mt-4">अम्बानीले फुटबल क्लब
+                                लिभरपुल
+                                किन्न लागेका हुन् त ?</a>
+
+                        </div>
+                        <div class="col-3.5  ">
+                            <div class="position-relative">
+                                <a href=""><img src="images/cat-2.jpg"></a>
+                                <div
+                                    class="content border-0 position-absolute bottom-0 left-0 py-1 ps-4 d-flex align-items-center">
+                                    <div class="d-flex gap-2">
+                                        <i class="bi bi-stopwatch text-light"></i>
+                                        <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="" class="fs-5 fw-bold primary-color d-block mt-4">अम्बानीले फुटबल क्लब
+                                लिभरपुल
+                                किन्न लागेका हुन् त ?</a>
+
+                        </div>
+                        <div class="col-3.5  ">
+                            <div class="position-relative">
+                                <a href=""><img src="images/cat-2.jpg"></a>
+                                <div
+                                    class="content border-0 position-absolute bottom-0 left-0 py-1 ps-4 d-flex align-items-center">
+                                    <div class="d-flex gap-2">
+                                        <i class="bi bi-stopwatch text-light"></i>
+                                        <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="" class="fs-5 fw-bold primary-color d-block mt-4">अम्बानीले फुटबल क्लब
+                                लिभरपुल
+                                किन्न लागेका हुन् त ?</a>
+
                         </div>
                     </div>
-                    <a href="" class="fs-5 fw-bold primary-color d-block mt-2">
-                        अम्बानीले फुटबल क्लब लिभरपुल किन्न लागेका हुन् त ?
-                    </a>
-                    <p class="d-block mt-3 p-color">काठमाण्डौ । भारतीय सेयर बजारमा लगातार गिरावट आइरहेको छ। पछिल्लो
-                        तीन
-                        दिनमा बम्बे स्टक एक्सचेन्ज (बीएसई) को सेन्सेक्समा १८४४ अंकले ओरालो लागेको छ। आजमात्रै
-                        सेन्सेक्समा ६३४ अंकको गिरावट आएको छ। ...</p>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="position-relative">
-                        <a href=""><img src="images/cat-2.jpg"></a>
-                        <div
-                            class="content border-0 position-absolute bottom-0 left-0 py-1 ps-4 d-flex align-items-center">
-                            <div class="d-flex gap-2">
-                                <i class="bi bi-stopwatch text-light"></i>
-                                <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="" class="fs-5 fw-bold primary-color d-block mt-2">
-                        अम्बानीले फुटबल क्लब लिभरपुल किन्न लागेका हुन् त ?
-                    </a>
-                    <p class="d-block mt-3 p-color">काठमाण्डौ । भारतीय सेयर बजारमा लगातार गिरावट आइरहेको छ। पछिल्लो
-                        तीन
-                        दिनमा बम्बे स्टक एक्सचेन्ज (बीएसई) को सेन्सेक्समा १८४४ अंकले ओरालो लागेको छ। आजमात्रै
-                        सेन्सेक्समा ६३४ अंकको गिरावट आएको छ। ...</p>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="position-relative">
-                        <a href=""><img src="images/cat-2.jpg"></a>
-                        <div
-                            class="content border-0 position-absolute bottom-0 left-0 py-1 ps-4 d-flex align-items-center">
-                            <div class="d-flex gap-2">
-                                <i class="bi bi-stopwatch text-light"></i>
-                                <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="" class="fs-5 fw-bold primary-color d-block mt-2">
-                        अम्बानीले फुटबल क्लब लिभरपुल किन्न लागेका हुन् त ?
-                    </a>
-                    <p class="d-block mt-3 p-color">काठमाण्डौ । भारतीय सेयर बजारमा लगातार गिरावट आइरहेको छ। पछिल्लो
-                        तीन
-                        दिनमा बम्बे स्टक एक्सचेन्ज (बीएसई) को सेन्सेक्समा १८४४ अंकले ओरालो लागेको छ। आजमात्रै
-                        सेन्सेक्समा ६३४ अंकको गिरावट आएको छ। ...</p>
-                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-insu2" role="tabpanel" aria-labelledby="pills-insu2-tab" tabindex="0">
+                hello world
+            </div>
+            <div class="tab-pane fade" id="pills-sahakari" role="tabpanel" aria-labelledby="pills-sahakari-tab"
+                tabindex="0">
+                
+                yoyo oyyooyoyo
+                
 
             </div>
+
+
         </div>
+
     </div>
 
     <!-- ad ad ad ad ad ad ad -->
