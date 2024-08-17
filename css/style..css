@@ -162,6 +162,13 @@ h2 {
   overflow: hidden;
 }
 
+.line {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .top-header .logo {
   -o-object-fit: none;
      object-fit: none;

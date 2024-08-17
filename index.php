@@ -583,7 +583,7 @@
                     <a href=""><img src="images/airport.png" alt=""></a>
                     <div class="content position-absolute bottom-0 left-0 py-4 ps-4 d-flex align-items-center">
                         <div class="half">
-                            <a href="" class="text-light fs-5">मेटा कम्पनीबाट हजारौँ कर्मचारी बर्खास्तीमा पर्दै,
+                            <a href="" class="text-light fs-5 line">मेटा कम्पनीबाट हजारौँ कर्मचारी बर्खास्तीमा पर्दै,
                                 निकालिने
                                 कर्मचारीले कम्तिमा चार महिनाको पारिश्रमिक पाउने
                             </a>
@@ -591,7 +591,7 @@
                         <div class="d-flex gap-2">
 
                             <i class="bi bi-stopwatch text-light"></i>
-                            <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
+                            <p class="text-light line">शुक्रबार, जेठ २७, २०७९</p>
                         </div>
                     </div>
                 </div>
@@ -722,7 +722,7 @@
             <span><a href="" class="text-success ">सबै हेर्नुहोस्</a></span>
         </div>
         <div class="row ">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12">
 
                 <div class="br-bottom-gray position-relative">
                     <a href=""><img src="images/share-market.png" alt=""></a>
@@ -734,7 +734,7 @@
                         <div class="d-flex gap-2">
 
                             <i class="bi bi-stopwatch text-light"></i>
-                            <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
+                            <p class="text-light line">शुक्रबार, जेठ २७, २०७९</p>
                         </div>
                     </div>
                 </div>
@@ -753,7 +753,7 @@
 
 
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-12 ">
                 <div class="mb-3">
                     <div class="d-flex gap-4 align-items-center flex-column">
                         <div class="col-3.5">
@@ -783,7 +783,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-12 ">
                 <p class="fst-italic text-secondary">Advertisment</p>
 
                 <div class=" mb-3">
@@ -804,7 +804,7 @@
     <!-- 3-share -->
     <div class="container">
         <div class="row ">
-            <div class="col-8">
+            <div class="col-lg-8 col-md-12">
                 <div class="category d-flex justify-content-between align-items-center my-3">
                     <div class="d-flex ">
                         <span class="tag py-2 px-5  d-block"><a href="">शेयर बजार</a></span>
@@ -815,7 +815,7 @@
                     <a href=""><img src="images/airport.png" alt=""></a>
                     <div class="content position-absolute bottom-0 left-0 py-4 ps-4 d-flex align-items-center">
                         <div class="half">
-                            <a href="" class="text-light fs-5">मेटा कम्पनीबाट हजारौँ कर्मचारी बर्खास्तीमा पर्दै,
+                            <a href="" class="text-light fs-5 line">मेटा कम्पनीबाट हजारौँ कर्मचारी बर्खास्तीमा पर्दै,
                                 निकालिने
                                 कर्मचारीले कम्तिमा चार महिनाको पारिश्रमिक पाउने
                             </a>
@@ -823,7 +823,7 @@
                         <div class="d-flex gap-2">
 
                             <i class="bi bi-stopwatch text-light"></i>
-                            <p class="text-light">शुक्रबार, जेठ २७, २०७९</p>
+                            <p class="text-light line">शुक्रबार, जेठ २७, २०७९</p>
                         </div>
                     </div>
                 </div>
@@ -872,7 +872,7 @@
                 </div>
 
             </div>
-            <div class="col-4 pt-4">
+            <div class="col-lg-4 col-md-12 pt-4">
                 <p class="fst-italic text-secondary">Advertisment</p>
                 <div class="mb-5 d-flex flex-column gap-4">
                     <a href=""><img src="images/ad-aside.gif" alt=""></a>
@@ -957,7 +957,7 @@
                     <span><a href="" class="text-success ">सबै हेर्नुहोस्</a></span>
                 </div>
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-lg-7 col-md-12">
                         <div class="br-bottom-gray position-relative">
                             <a href=""><img src="images/share-market.png" alt=""></a>
                             <div class="content position-absolute bottom-0 left-0 py-2 ps-4 d-flex align-items-center">
@@ -984,7 +984,7 @@
                             <a href="" class="text-success ">पूरा पढ्नुहोस् »</a>
                         </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-lg-5 col-md-12">
                         <div class="br-bottom-gray mb-3">
                             <div class="row d-flex align-items-center ">
                                 <div class="col-4">

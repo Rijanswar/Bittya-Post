@@ -180,3 +180,7 @@ h2 {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
+.line{
+    @include lineclamp($linevalue: 1);
+}
