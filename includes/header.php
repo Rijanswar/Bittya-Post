@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="sticky">
+    <header>
         <div class="top-header container my-3">
             <div class="row">
                 <div class="col-3">
@@ -25,7 +25,7 @@
             </div>
         </div>
     </header>
-    <div class="navigation-bar py-3">
+    <div class="navigation-bar py-3 sticky" id="nav">
         <div class="container">
             <button class="side-menu-open-btn"><i class="bi bi-list"></i></button>
             <nav>

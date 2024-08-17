@@ -177,9 +177,6 @@ h2 {
 .navigation-bar {
   background-color: #006EAC;
   color: white;
-  position: sticky;
-  top: 0;
-  z-index: 99999;
 }
 .navigation-bar .container {
   display: flex;
@@ -210,6 +207,14 @@ h2 {
   width: 30px;
   border-radius: 50%;
   font-size: 16px;
+}
+
+.sticky {
+  position: sticky;
+  top: -78px;
+  z-index: 9999999;
+  transform: translateY(100%);
+  transition: 0.5s linear;
 }
 
 .top-footer {

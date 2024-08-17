@@ -14,10 +14,6 @@
 .navigation-bar {
     background-color: $primary-color;
     color: white;
-    position: sticky;
-    top: 0;
-    z-index: 99999;
-
     .container {
         display: flex;
         justify-content: space-between;
@@ -59,5 +55,9 @@
 }
 
 .sticky {
-    .navigation-bar {}
+    position: sticky;
+    top: -78px;
+    z-index: 9999999;
+    transform: translateY(100%);
+    transition: 0.5s linear;
 }
