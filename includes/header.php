@@ -44,8 +44,35 @@
 
     <div class="side-nav">
         <i class="bi bi-x"></i>
-        <figure>
-            <a href="index.php"><img src="images/logo.png" alt=""></a>
-        </figure>
-        <time datetime="">आइतबार २९ जेठ, २०७९  Sunday, 12 June, 2022</time>
+        <div class="side-nav-logo py-3">
+            <figure>
+                <a href="index.php"><img src="images/logo.png" alt=""></a>
+            </figure>
+            <time datetime="">आइतबार २९ जेठ, २०७९ Sunday, 12 June, 2022</time>
+        </div>
+        <div class="sub-menu-links">
+            <div class="row">
+                <div class="col-6">
+                    <ul>
+                        <li><a href="">समाचार</a></li>
+                        <li><a href="">अर्थनीति</a></li>
+                        <li><a href="">शेयर बजार</a></li>
+                        <li><a href="">बैंकिङ</a></li>
+                        <li><a href="">आर्थिक क्षेत्र</a></li>
+                        <li><a href="">अटोमाेबाइल</a></li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul>
+                        <li><a href="">समाचार</a></li>
+                        <li><a href="">समाज</a></li>
+                        <li><a href="">पर्यटन</a></li>
+                        <li><a href="">विकास</a></li>
+                        <li><a href="">दृष्टिकोण</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </div>

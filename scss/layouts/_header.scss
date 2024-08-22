@@ -63,6 +63,33 @@
 }
 
 .side-nav{
-    width: 30%;
+    width: 445px;
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    i{
+        float: right;
+        font-size: 35px;
+    }
+    .side-nav-logo{
+        margin: 0px auto;
+        width: fit-content;
+        border-bottom: 2px solid $primary-color;
+        figure{
+            width: 300px;
+            height: 90px;
+            margin: 0;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+    
+        }
+        time{
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
     
 }

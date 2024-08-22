@@ -224,7 +224,34 @@ h2 {
 }
 
 .side-nav {
-  width: 30%;
+  width: 445px;
+  background-color: yellow;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+}
+.side-nav i {
+  float: right;
+  font-size: 35px;
+}
+.side-nav .side-nav-logo {
+  margin: 0px auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 2px solid #006EAC;
+}
+.side-nav .side-nav-logo figure {
+  width: 300px;
+  height: 90px;
+  margin: 0;
+}
+.side-nav .side-nav-logo figure img {
+  width: 100%;
+  height: 100%;
+}
+.side-nav .side-nav-logo time {
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .top-footer {
