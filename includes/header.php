@@ -27,7 +27,7 @@
     </header>
     <div class="navigation-bar py-3 " id="nav">
         <div class="container">
-            <button class="side-menu-open-btn"><i class="bi bi-list"></i></button>
+            <button class="side-menu-open-btn"><i class="bi bi-list" id="show"></i></button>
             <nav>
                 <ul>
                     <li><a href="">चर्चामा</a></li>
@@ -42,9 +42,9 @@
         </div>
     </div>
 
-    <div class="side-nav">
-        <i class="bi bi-x"></i>
-        <div class="side-nav-logo py-3">
+    <div class="side-nav" id="sub-menu">
+        <i class="bi bi-x" id="close"></i>
+        <div class="side-nav-logo py-5">
             <figure>
                 <a href="index.php"><img src="images/logo.png" alt=""></a>
             </figure>
@@ -71,6 +71,27 @@
                         <li><a href="">दृष्टिकोण</a></li>
 
                     </ul>
+                </div>
+            </div>
+        </div>
+        <div class="side-menu-footer mt-3">
+            <div class="center">
+                <p>विज्ञापनका लागि:</p>
+                <a href="mailto:bittyapost@example.com">Bittyapost@example.com</a><br>
+                <a href="tel:+977-9842545345">+977-9842545345</a>
+            </div>
+            <div class="social-media mt-2">
+                <p>Follow Us:</p>
+                <div class="icons d-flex">
+                    <a href="">
+                        <div class="icons-bg"><i class="bi bi-youtube"></i></div>
+                    </a>
+                    <a href="">
+                        <div class="icons-bg"><i class="bi bi-twitter-x"></i></div>
+                    </a>
+                    <a href="">
+                        <div class="icons-bg"><i class="bi bi-instagram"></i></div>
+                    </a>
                 </div>
             </div>
         </div>

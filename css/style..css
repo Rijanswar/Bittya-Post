@@ -229,15 +229,19 @@ h2 {
 
 .side-nav {
   width: 445px;
-  background-color: yellow;
+  background-color: white;
   position: fixed;
   top: 0;
   height: 100vh;
-  z-index: 55555;
+  z-index: 99999999999999;
+  left: -100%;
+  transition: 1s;
 }
-.side-nav i {
+.side-nav #close {
   float: right;
   font-size: 35px;
+  margin: 20px 20px 0 0;
+  cursor: pointer;
 }
 .side-nav .side-nav-logo {
   margin: 0px auto;
@@ -268,6 +272,48 @@ h2 {
 }
 .side-nav .sub-menu-links ul li a {
   font-weight: 600;
+}
+.side-nav .side-menu-footer {
+  background-color: #006EAC;
+  height: 100%;
+}
+.side-nav .side-menu-footer .center {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 25px;
+  line-height: 30px;
+  color: white;
+}
+.side-nav .side-menu-footer .center p {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.side-nav .side-menu-footer .social-media p {
+  color: white;
+  text-align: center;
+}
+.side-nav .side-menu-footer .social-media .icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.side-nav .side-menu-footer .social-media .icons .icons-bg {
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.side-nav .side-menu-footer .social-media .icons .icons-bg i {
+  font-size: 12px;
+  float: none;
+  color: #006EAC;
 }
 
 .top-footer {

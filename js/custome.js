@@ -6,3 +6,10 @@ window.addEventListener("scroll", function(){
         nav.classList.remove("sticky");
     }
 })
+
+document.getElementById("show").onclick = function(){
+    document.getElementById("sub-menu").style.left = "0%";
+}
+document.getElementById("close").onclick = function(){
+    document.getElementById("sub-menu").style.left = "-100%";
+}
