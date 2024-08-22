@@ -7,7 +7,7 @@ window.addEventListener("scroll", function(){
     }
 })
 
-document.getElementById("show").onclick = function(){
+document.getElementById("side-nav-open-btn").onclick = function(){
     document.getElementById("sub-menu").style.left = "0%";
 }
 document.getElementById("close").onclick = function(){

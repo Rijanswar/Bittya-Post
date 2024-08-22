@@ -27,7 +27,7 @@
     </header>
     <div class="navigation-bar py-3 " id="nav">
         <div class="container">
-            <button class="side-menu-open-btn"><i class="bi bi-list" id="show"></i></button>
+            <button class="side-menu-open-btn"><i class="bi bi-list" id="side-nav-open-btn"></i></button>
             <nav>
                 <ul>
                     <li><a href="">चर्चामा</a></li>
