@@ -25,7 +25,7 @@
             </div>
         </div>
     </header>
-    <div class="navigation-bar py-3 sticky" id="nav">
+    <div class="navigation-bar py-3 " id="nav">
         <div class="container">
             <button class="side-menu-open-btn"><i class="bi bi-list"></i></button>
             <nav>
@@ -40,4 +40,12 @@
             </nav>
             <button class="search-btn"><i class="bi bi-search"></i></button>
         </div>
+    </div>
+
+    <div class="side-nav">
+        <i class="bi bi-x"></i>
+        <figure>
+            <a href="index.php"><img src="images/logo.png" alt=""></a>
+        </figure>
+        <time datetime="">आइतबार २९ जेठ, २०७९  Sunday, 12 June, 2022</time>
     </div>

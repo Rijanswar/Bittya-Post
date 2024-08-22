@@ -223,6 +223,10 @@ h2 {
   transition: 0.5s linear;
 }
 
+.side-nav {
+  width: 30%;
+}
+
 .top-footer {
   background-color: rgba(0, 109, 172, 0.5019607843);
 }
