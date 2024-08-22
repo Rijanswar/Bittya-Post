@@ -56,6 +56,10 @@ h2 {
   border-bottom: 1px solid #006EAC;
 }
 
+.br-right-primary {
+  border-right: 1px solid #006EAC;
+}
+
 .br-bottom-gray {
   border-bottom: 2px solid rgba(184, 184, 184, 0.549);
 }
@@ -229,6 +233,7 @@ h2 {
   position: fixed;
   top: 0;
   height: 100vh;
+  z-index: 55555;
 }
 .side-nav i {
   float: right;
@@ -238,7 +243,7 @@ h2 {
   margin: 0px auto;
   width: -moz-fit-content;
   width: fit-content;
-  border-bottom: 2px solid #006EAC;
+  border-bottom: 1px solid #006EAC;
 }
 .side-nav .side-nav-logo figure {
   width: 300px;
@@ -251,6 +256,17 @@ h2 {
 }
 .side-nav .side-nav-logo time {
   font-size: 15px;
+  font-weight: 600;
+}
+.side-nav .sub-menu-links {
+  padding: 0 40px;
+  margin-top: 30px;
+  line-height: 40px;
+}
+.side-nav .sub-menu-links ul li:hover {
+  color: #006EAC;
+}
+.side-nav .sub-menu-links ul li a {
   font-weight: 600;
 }
 

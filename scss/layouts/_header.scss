@@ -14,6 +14,7 @@
 .navigation-bar {
     background-color: $primary-color;
     color: white;
+
     .container {
         display: flex;
         justify-content: space-between;
@@ -62,34 +63,59 @@
     transition: 0.5s linear;
 }
 
-.side-nav{
+.side-nav {
     width: 445px;
     background-color: yellow;
     position: fixed;
     top: 0;
     height: 100vh;
-    i{
+    z-index: 55555;
+
+    i {
         float: right;
         font-size: 35px;
     }
-    .side-nav-logo{
+
+    .side-nav-logo {
         margin: 0px auto;
         width: fit-content;
-        border-bottom: 2px solid $primary-color;
-        figure{
+        border-bottom: 1px solid $primary-color;
+
+        figure {
             width: 300px;
             height: 90px;
             margin: 0;
-            img{
+
+            img {
                 width: 100%;
                 height: 100%;
             }
-    
+
         }
-        time{
+
+        time {
             font-size: 15px;
             font-weight: 600;
         }
     }
-    
+
+    .sub-menu-links {
+        padding: 0 40px;
+        margin-top: 30px;
+        line-height: 40px;
+
+        ul {
+            li {
+                &:hover {
+                    color: $primary-color;
+                }
+                a{
+                    font-weight: 600;
+                }
+            }
+        }
+
+
+    }
+
 }

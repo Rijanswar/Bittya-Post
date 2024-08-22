@@ -52,7 +52,7 @@
         </div>
         <div class="sub-menu-links">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 br-right-primary">
                     <ul>
                         <li><a href="">समाचार</a></li>
                         <li><a href="">अर्थनीति</a></li>
