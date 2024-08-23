@@ -7,7 +7,7 @@
     </div>
 
     <!-- latest update  -->
-    <div class="container update my-5 ">
+    <div class="container update my-5 " data-aos="fade-up">
         <div class="category">
             <span class="tag py-2 px-5 mx-auto d-block">शेयर बजार</span>
         </div>
@@ -29,7 +29,7 @@
             </div>
         </div>
     </div>
-    <div class="container update my-5 ">
+    <div class="container update my-5 " data-aos="fade-up">
         <div class="category">
             <span class="tag py-2 px-5 mx-auto d-block"> विश्व समाचार</span>
         </div>
@@ -50,7 +50,7 @@
     </div>
 
     <!-- image-banner-section -->
-    <div class="container br-bottom-primary pb-3">
+    <div class="container br-bottom-primary pb-3" data-aos="fade-up">
         <a href=""><img src="images/Rectangle 135.png" alt=""></a>
         <a href="" class="d-block fw-bold text-center mt-5 fs-5">
             बिहीबार अमेरिकामा मुद्रास्फीतिको तथ्याङ्कमा आएको कमीका कारण डाउ जोन्स,
@@ -61,12 +61,12 @@
     </div>
 
     <!-- ad ad ad ad ad ad ad -->
-    <div class="container my-5 ">
+    <div class="container my-5 " data-aos="fade-up">
         <a href=""><img src="images/ad-1.gif" alt=""></a>
     </div>
 
     <!-- agriculture-insurance-section -->
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <div class="category d-flex justify-content-between align-items-center my-3">
             <span class="tag py-2 px-5  d-block">शेयर बजार</span>
             <span><a href="" class="text-success ">सबै हेर्नुहोस्</a></span>
@@ -168,13 +168,13 @@
     </div>
 
     <!-- ad ad ad ad ad ad ad -->
-    <div class="container my-5 ">
+    <div class="container my-5 " data-aos="fade-up">
         <a href=""><img src="images/ad-2.jpeg" alt=""></a>
     </div>
 
 
     <!-- 3-share -->
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <div class="row ">
             <div class="col-lg-8 col-md-12">
                 <div class="category d-flex justify-content-between align-items-center my-3">
@@ -305,12 +305,12 @@
     </div>
 
     <!-- ad ad ad ad ad ad ad -->
-    <div class="container my-5 ">
+    <div class="container my-5 "data-aos="fade-up">
         <a href=""><img src="images/ad-5.jpeg" alt=""></a>
     </div>
 
     <!-- rounded-image -->
-    <div class="container mb-5">
+    <div class="container mb-5"data-aos="fade-up">
         <div class="category d-flex justify-content-between align-items-center my-3">
             <span class="tag py-2 px-5  d-block">शेयर बजार</span>
             <span><a href="" class="text-success ">सबै हेर्नुहोस्</a></span>
@@ -346,13 +346,13 @@
     </div>
 
     <!-- ad ad ad ad ad ad ad -->
-    <div class="container my-5 ">
+    <div class="container my-5 "data-aos="fade-up">
         <a href=""><img src="images/ad-4.gif" alt=""></a>
     </div>
 
 
     <!-- 3-share -->
-    <div class="container">
+    <div class="container"data-aos="fade-up">
         <div class="category d-flex justify-content-between align-items-center my-3">
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -442,12 +442,12 @@
     </div>
 
     <!-- ad ad ad ad ad ad ad -->
-    <div class="container my-5 ">
+    <div class="container my-5 "data-aos="fade-up">
         <a href=""><img src="images/ad-2.jpeg" alt=""></a>
     </div>
 
     <!-- 3-share -->
-    <div class="container">
+    <div class="container"data-aos="fade-up">
         <div class="category d-flex justify-content-between align-items-center my-3">
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -564,13 +564,13 @@
     </div>
 
     <!-- ad ad ad ad ad ad ad -->
-    <div class="container my-5 ">
+    <div class="container my-5 "data-aos="fade-up">
         <a href=""><img src="images/ad-3.gif" alt=""></a>
     </div>
 
 
     <!-- 3-share -->
-    <div class="container">
+    <div class="container"data-aos="fade-up">
         <div class="row ">
             <div class="col-lg-8 col-md-12">
                 <div class="category d-flex justify-content-between align-items-center my-3">
@@ -709,12 +709,12 @@
 
 
     <!-- ad ad ad ad ad ad ad -->
-    <div class="container my-5 ">
+    <div class="container my-5 "data-aos="fade-up">
         <a href=""><img src="images/ad-6.png" alt=""></a>
     </div>
 
     <!-- 3-share -->
-    <div class="container">
+    <div class="container"data-aos="fade-up">
         <div class="category d-flex justify-content-between align-items-center my-3">
             <div class="d-flex ">
                 <span class="tag py-2 px-5  d-block"><a href="">शेयर बजार</a></span>
@@ -796,13 +796,13 @@
 
 
     <!-- ad ad ad ad ad ad ad -->
-    <div class="container my-5 ">
+    <div class="container my-5 "data-aos="fade-up">
         <a href=""><img src="images/ad-1.gif" alt=""></a>
     </div>
 
 
     <!-- 3-share -->
-    <div class="container">
+    <div class="container"data-aos="fade-up">
         <div class="row ">
             <div class="col-lg-8 col-md-12">
                 <div class="category d-flex justify-content-between align-items-center my-3">
@@ -940,13 +940,13 @@
     </div>
 
     <!-- ad ad ad ad ad ad ad -->
-    <div class="container my-5 ">
+    <div class="container my-5 "data-aos="fade-up">
         <a href=""><img src="images/ad-4.gif" alt=""></a>
     </div>
 
 
     <!-- 3-share -->
-    <div class="container">
+    <div class="container"data-aos="fade-up">
 
         <div class="row ">
             <div class="col-lg-8 col-md-12">
@@ -1138,11 +1138,11 @@
     </div>
 
     <!-- ad ad ad ad ad ad ad -->
-    <div class="container my-5 ">
+    <div class="container my-5 "data-aos="fade-up">
         <a href=""><img src="images/ad-6.png" alt=""></a>
     </div>
 
-    <div class="container">
+    <div class="container"data-aos="fade-up">
         <div class="row ">
             <div class="col-lg-8 col-md-12">
                 <div class="category d-flex justify-content-between align-items-center my-3">
@@ -1344,7 +1344,7 @@
     </div>
 
     <!-- ad ad ad ad ad ad ad -->
-    <div class="container my-5 ">
+    <div class="container my-5 "data-aos="fade-up">
         <a href=""><img src="images/ad-1.gif" alt=""></a>
     </div>
 </main>
