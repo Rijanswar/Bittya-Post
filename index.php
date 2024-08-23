@@ -2,7 +2,7 @@
 
 <main>
     <!-- ad ad ad ad ad ad ad -->
-    <div class="container mt-5">
+    <div class="container mt-5 pt-2">
         <a href=""><img src="images/ad-3.gif" alt=""></a>
     </div>
 

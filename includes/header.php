@@ -40,9 +40,16 @@
                     <li><a href="">शेयर</a></li>
                 </ul>
             </nav>
-            <button class="search-btn"><i class="bi bi-search"></i></button>
+            <button id="search-btn"><i class="bi bi-search"></i></button>
+            <div id="search-box">
+                <input type="text" placeholder="Search">
+                <input type="submit" id="submit" value="Search">
+            </div>
         </div>
+
     </div>
+
+
 
     <div class="side-nav" id="sub-menu">
         <i class="bi bi-x" id="close"></i>

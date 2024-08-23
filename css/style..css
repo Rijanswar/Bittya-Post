@@ -192,6 +192,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .navigation-bar .container .side-menu-open-btn {
   background-color: transparent;
@@ -210,13 +211,42 @@ h2 {
 .navigation-bar .container nav ul li a {
   font-weight: 500;
 }
-.navigation-bar .container .search-btn {
+.navigation-bar .container #search-btn {
   border: none;
   color: #006EAC;
   height: 30px;
   width: 30px;
   border-radius: 50%;
   font-size: 16px;
+}
+.navigation-bar .container #search-box {
+  margin: 6px;
+  position: absolute;
+  top: 60px;
+  right: 0%;
+  display: none;
+}
+.navigation-bar .container #search-box input {
+  padding: 8px;
+  outline: none;
+  border: 2px solid #19A601;
+  border-radius: 0;
+}
+.navigation-bar .container #search-box #submit {
+  background-color: #19A601;
+  color: white;
+  margin-left: -6px;
+  width: 80px;
+}
+.navigation-bar .container #search-box::before {
+  content: "";
+  position: absolute;
+  top: -28px;
+  right: 5px;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid #19A601;
 }
 
 .sticky {

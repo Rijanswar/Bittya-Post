@@ -19,7 +19,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        position: relative;
         .side-menu-open-btn {
             background-color: transparent;
             border: none;
@@ -43,18 +43,50 @@
             }
         }
 
-        .search-btn {
+        #search-btn {
             border: none;
-            color: $primary-color;
+            color: #006EAC;
             height: 30px;
             width: 30px;
             border-radius: 50%;
             font-size: 16px;
         }
+        
+        #search-box{
+            margin: 6px;
+            position: absolute;
+            top: 60px;
+            right: 0%;
+            display: none;
+            input{
+                padding: 8px;
+                outline: none;
+                border: 2px solid #19A601;
+                border-radius: 0;
+            }
+            #submit{
+                background-color: #19A601;
+                color: white;
+                margin-left: -6px;
+                width: 80px;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                top: -28px;
+                right: 5px;
+                border-left: 12px solid transparent;
+                border-right: 12px solid transparent;
+                border-top: 14px solid transparent;
+                border-bottom: 14px solid #19A601;
+            }
+        }
+        
+
     }
 
-}
 
+}
 .sticky {
     position: sticky;
     top: -78px;
